@@ -1,0 +1,73 @@
+header {
+    color: red;
+    height: 40px;
+    font-family: fantasy;
+    text-align: center;
+}
+
+header::after{
+    color: skyblue;
+}
+
+@keyframes RGB{
+    from{
+        color: red;
+    }
+    to{
+        color: skyblue;
+    }
+}
+
+h2{
+    background-color: #6BA56D;
+}
+
+h3{
+    color: blue;
+    font-size: 36px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.tete{
+    background-color: whitesmoke;
+    color: azure;
+}
+
+.copy{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: crimson;
+    font-style: italic;
+    font-size: large;
+}
+
+#cherries{
+    background-color: #d8112f;
+    color:goldenrod;
+}
+
+#grapes{
+    background-color:#1acc20;
+    color: purple;
+
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
